@@ -63,12 +63,15 @@ img {
 }
 
 .header-link {
+    display: block;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--navy-blue);
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .logo-color {
@@ -92,8 +95,6 @@ img {
 
 .header-container {
     display: flex;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .nav-container {
@@ -103,12 +104,15 @@ img {
 
 
 .header-address-item {
+    display: block;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--slate);
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-address-item:hover,
@@ -397,4 +401,5 @@ img {
 .portfolio-content {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
+    border-top: none; 
 }
